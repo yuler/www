@@ -4,26 +4,45 @@
 
 [The Offical Docs](https://vercel.com/docs/v2/custom-domains)
 
-1. Add a domain from the `now` command
+### 1. Add a domain from the `vercel` command
 
 ### Example
 
 ```bash
-now domains add yuler.sh
+vc domains add yuler.me
 ```
 
-2. Config T in your DNS
+### Config in your DNS
 
 ```bash
-now domains inspect yuler.sh
+vc domains inspect yuler.me
 
 ## Output
 ...
-  Verification Record
+  Nameservers
 
-  name        type        value
-  _now        TXT         75KF3Tv4qj
+    Intended Nameservers    Current Nameservers
+    a.zeit-world.co.uk      -                      ✘
+    b.zeit-world.org        -                      ✘
+    e.zeit-world.net        -                      ✘
+    f.zeit-world.com        -                      ✘
+...
 ```
 
-然后再 yuler.sh 域名提供商 DNS 配置一条上面的 TXT 记录
+我们需要将 Intended Nameservers 这些记录，添加到我们的域名服务器上。
 
+添加好了之后我们通过下面的命令校验是否配置成功
+
+```bash
+vc domains verify yuler.me
+# or
+vc domains inspect yuler.me
+```
+
+Note: DNS 的设置可能有延迟。
+
+如果现实成功了我的域名 DNS 解析就托管到了 Vercel 平台上了。可以通过下面命令查看 DNS。
+
+```bash
+vc dns ls
+```
