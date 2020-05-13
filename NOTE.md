@@ -46,3 +46,13 @@ Note: DNS 的设置可能有延迟。
 ```bash
 vc dns ls
 ```
+
+## Config GitHub Silent
+
+```JavaScript
+{
+  "github": {
+    "silent": true
+  }
+}
+```
