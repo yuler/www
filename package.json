@@ -8,6 +8,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "gray-matter": "^4.0.2",
     "isomorphic-unfetch": "3.0.0",
     "modern-normalize": "^0.6.0",
     "next": "latest",
