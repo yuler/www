@@ -2,9 +2,11 @@ import Link from 'next/link'
 import Logo from './Logo'
 
 const LINKS = [
-  { name: 'Email', url: 'mailto:is.yuler@gmail.com'},
-  { name: 'GitHub', url: 'https://github.com/yuler'},
-  { name: 'Twitter', url: 'https://twitter/isyuler'},
+  { name: 'Posts', url: '/posts' },
+  // @TODO move to index page
+  // { name: 'Email', url: 'mailto:is.yuler@gmail.com'},
+  // { name: 'GitHub', url: 'https://github.com/yuler'},
+  // { name: 'Twitter', url: 'https://twitter/isyuler'},
 ]
 
 const Header = () => {

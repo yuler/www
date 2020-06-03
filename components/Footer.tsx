@@ -9,6 +9,13 @@ const Footer = () => (
         color: #999;
         text-decoration: none;
       }
+      @media (min-width: 500px) {
+        footer {
+          max-width: 42rem;
+          margin: auto;
+          padding: 20px 0;
+        }
+      }
     `}</style>
   </footer>
 )

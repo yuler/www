@@ -1,5 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 type IProps = {
   title?: string
@@ -12,15 +14,25 @@ const Layout: React.FC<IProps> = ({ className, children }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      {children}
+      
+      <Header />
+      <main>
+        {children}
+      </main>
+      <Footer />
 
       <style jsx>{`
-        div {
-          padding: 1rem;
-          margin: 0 auto;
-          max-width: 42rem;
-          min-height: 100vh;
-        }  
+        main {
+          min-height: calc(100vh - 200px);
+          flex: 1;
+        }
+        @media (min-width: 500px) {
+          main {
+            max-width: 42rem;
+            margin: auto;
+            padding: 20px 0;
+          }
+        }
       `}</style>
     </div>
   )
