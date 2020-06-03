@@ -7,6 +7,7 @@ refs: https://lists.w3.org/Archives/Public/www-dom/2010JulSep/att-0182/keyCode-s
 - madrobby/keymaster
 - jaywcjlove/hotkeys
 - ccampbell/mousetrap
+- reecelucas/react-use-hotkeys
 
 ## Analysis
 
