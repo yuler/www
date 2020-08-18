@@ -43,6 +43,9 @@ Note: `Control + Space` 可能和切换输入法冲突, 修改后需要重启 VS
 
 ## Font & Font Ligatures
 
+- [FiraCode](https://github.com/tonsky/FiraCode)
+- [Hasklig](https://github.com/i-tu/Hasklig)
+
 打开设置 `Command + ,` 搜索输入 `Font`, 在 **Editor: Font Family** 中输入指定的字体名称。
 
 例如安装 [FiraCode](https://github.com/tonsky/FiraCode) 字体
