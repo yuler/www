@@ -4,6 +4,8 @@
 
 从目前来看 [VS Code](https://code.visualstudio.com/) 已经的市场占有率已经很高了。
 
+此教程内容参考了 FrontendMasters 的 [Visual Studio Code Can Do That?](https://frontendmasters.com/courses/customize-vs-code/)
+
 # Introduction
 
 VS Code 分为 **Stable** 和 **Insiders** 版本
