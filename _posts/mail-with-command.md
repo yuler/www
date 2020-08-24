@@ -4,8 +4,17 @@ mail, mailx
 
 ## Config mail.rc
 
-sudo launchctl start org.postfix.master
+refs: https://hdsky.pw/2020/03/18/Postfix/
 
-echo "Hello World" | mail -s "Test email" joyful4yu@gmail.com
+postfix
 
-https://benjaminrojas.net/configuring-postfix-to-send-mail-from-mac-os-x-mountain-lion/
+relayhost = smtp.exmail.qq.com:456
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_sasl_security_options = noanonymous
+smtp_use_tls = yes
+
+
+## 客户端密码
+
+客户端专用密码：
