@@ -1,3 +1,7 @@
+---
+title: 'Use Mail Command in Mac'
+---
+
 # Mail with Command
 
 mail, mailx
