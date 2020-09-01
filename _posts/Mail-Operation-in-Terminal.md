@@ -29,10 +29,29 @@ smtp_sasl_security_options = noanonymous
 smtp_use_tls = yes
 
 
-
 smtp.gmail.com:587 isyuler@gmail.com:yule123QWE
 
 smtp.exmail.qq.com:456 yule@shihuituan.com:hqXew8f2R82Gukwg
 ## 客户端密码
 
 客户端专用密码：
+
+
+## Mac ISP 策略
+
+https://github.com/rofl0r/proxychains-ng/issues/78
+
+https://support.apple.com/zh-cn/HT204899
+
+1. 关闭 ISP
+
+2. 将命令二进制文件 copy 到外面来执行
+
+https://github.com/rofl0r/proxychains-ng/issues/78#issuecomment-138435817
+
+example:
+
+```bash
+cp /usr/local/bin/mutt ~
+proxychains4 ~/curl ifconfig.co/json
+```
