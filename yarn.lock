@@ -1108,10 +1108,10 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/node@^14.6.0":
-  version "14.6.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.0.tgz#7d4411bf5157339337d7cff864d9ff45f177b499"
-  integrity sha512-mikldZQitV94akrc4sCcSjtJfsTKt4p+e/s0AGscVA6XArQ9kFclP+ZiYUMnq987rc6QlYxXv/EivqlfSLxpKA==
+"@types/node@^16.11.1":
+  version "16.11.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.1.tgz#2e50a649a50fc403433a14f829eface1a3443e97"
+  integrity sha512-PYGcJHL9mwl1Ek3PLiYgyEKtwTMmkMw4vbiyz/ps3pfdRYLVv+SN7qHVAImrjdAXxgluDEw6Ph4lyv+m9UpRmA==
 
 "@types/prop-types@*":
   version "15.7.3"
