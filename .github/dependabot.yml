@@ -5,6 +5,7 @@ updates:
   schedule:
     interval: weekly
     time: "21:00"
-  open-pull-requests-limit: 10
+  # Disable version updates for npm dependencies
+  open-pull-requests-limit: 0
   reviewers:
   - yuler
